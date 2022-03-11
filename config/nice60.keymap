@@ -12,6 +12,11 @@
 #include <dt-bindings/zmk/reset.h>
 #include <dt-bindings/zmk/ext_power.h>
 
+&mt RSHIFT UP
+&mt 1 DOWN
+&mt RCTRL RIGHT
+&mt RGUI LEFT
+
 / {
 	keymap {
 		compatible = "zmk,keymap";
